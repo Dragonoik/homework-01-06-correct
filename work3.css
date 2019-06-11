@@ -1,0 +1,106 @@
+.header1{
+	text-align: center;
+}
+
+.header2{
+	padding: 0 0 0 44%;
+}
+
+.border{
+	border: 1px solid black;
+	margin: 20px;
+	padding: 10px 10px 10px 10px;
+}
+
+.no-line{
+	text-decoration: none;
+}
+
+body{
+	background-color: rgba(0, 252, 254, 0.2);
+	margin: 0;
+}
+
+main{
+	border: 1px solid white;
+	background-color: white;
+	margin: 0 10% 7% 10%;
+	padding: 10px 10px 100px 10px;
+}
+
+.border-ul{
+	border: 1px solid silver;
+	background-color: silver;
+	border-radius: 10px;
+}
+
+hr{
+	height: 3px;
+	background-color: black;
+}
+
+input{
+	margin: 0 0 0 90%;
+}
+
+a:visited{
+	color: blue;
+}
+
+footer{
+	font-style: italic;
+	background-color: silver;
+	padding: 0 0 5px 10px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.border-sittings-article {
+  border: 2px solid black;
+  width: 75px;
+  height: 40px;
+  margin-left: 5%;
+  margin-top: 20px;
+  padding-left: 1%; 
+  padding-right: 1%;
+  background-color: rgb(204,204,238);
+  overflow: hidden;
+  text-align: bottom;
+}
+
+.border-sittings-article:target {
+  width: 800px;
+  height: 180px; 
+  background-color: rgb(240, 240, 240);
+}
+
+.logo {
+	width: 24px;
+}
+
+.interesting-1 img{
+	float: right;
+	width: 180px;
+}
+
+.interesting-2 img{
+	float: left;
+	width: 180px;
+	margin: 0 10px 0 0;
+}
+
+.popular-1 img{
+	float: right;
+	width: 180px;
+}
+
+.popular-2 img{
+	float: left;
+	width: 180px;
+	margin: 0 10px 0 0;
+}
+
+.clear-both{
+	clear: both;
+}
